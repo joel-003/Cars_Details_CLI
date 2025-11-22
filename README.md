@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner-dark.png" width="100%" />
+</p>
+
 # Cars CLI Application Documentation
 
 ## Badges
