@@ -27,6 +27,38 @@ This project is a simple Command-Line Interface (CLI) application for managing c
 * **JDBC**
 * **Maven / IDE Build Tools**
 
+## PostgreSQL JDBC Dependency
+
+### ▶ For Maven users:
+
+```xml
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.7.2</version>
+</dependency>
+```
+
+### ▶ For Gradle users:
+
+```gradle
+dependencies {
+    implementation 'org.postgresql:postgresql:42.7.2'
+}
+```
+
+### ▶ For IntelliJ / Manual Setup:
+
+Download the JDBC driver manually:
+
+🔗 [https://jdbc.postgresql.org/download/](https://jdbc.postgresql.org/download/)
+
+Add the `.jar` file to your project:
+
+```
+File → Project Structure → Modules → Dependencies → + Add JAR
+```
+
 ## Architecture Diagram (Mermaid)
 
 ```mermaid
@@ -141,7 +173,7 @@ See the [LICENSE](LICENSE) file for full details.
 Below is a short demo of the CLI in action:
 
 <p align="center">
-  <img src="Car_detail-video.gif" width="600" />
+  <img src="Cars_detail-video.gif" width="600" />
 </p>
 
 ## 📸 CLI Screenshots
